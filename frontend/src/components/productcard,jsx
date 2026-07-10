@@ -1,0 +1,23 @@
+function ProductCard({ product }) {
+    return (
+        <div className="product-card">
+
+            <h3>{product.name}</h3>
+
+            <p>
+                Price: ${product.price}
+            </p>
+
+            <p>
+                Category: {product.category_id}
+            </p>
+
+            <button>
+                View Details
+            </button>
+
+        </div>
+    );
+}
+
+export default ProductCard;
